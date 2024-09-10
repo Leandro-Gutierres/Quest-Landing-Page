@@ -1,0 +1,113 @@
+body {
+    background: url('../images/bg-desktop.svg') center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    font-family: "Open-sans", Poppins;
+    font-weight: 400;
+    margin: 50px;
+}
+
+/* CABECALHO */
+main {
+    padding: 50px;
+}
+.cabecalho {
+    max-width: 1440px;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* CONTEUDO */
+
+
+
+.conteudo {
+
+    display: flex;
+    gap: 45px;
+}
+
+.conteudo .ilustration {
+    max-width: 100%;
+
+}
+
+.conteudo .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo .info .title {
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.conteudo .info .title:first-child {
+    margin-top: 25px;
+}
+
+.conteudo .info p {
+    font-size: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.conteudo .info .btn-register {
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    align-self: self-start;
+    padding: 15px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 30px #000;
+}
+
+.conteudo .info .btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+/* CONTATO */
+
+.contato {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.contato .social a {
+    margin: 10px;
+
+}
+
+.contato .social a button {
+    transition: 0.3s;
+    padding: 6px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #ffffff;
+    background-color: transparent;
+}
+
+.contato .social a button i {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+}
+
+
+
+.contato .social a button i:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+
+
+}
