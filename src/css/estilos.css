@@ -103,11 +103,13 @@ main {
     color: #fff;
 }
 
-
+.contato .social a button:hover {
+    border-color:hsl(300, 69%, 71%);
+}
 
 .contato .social a button i:hover {
     color: hsl(300, 69%, 71%);
     cursor: pointer;
-
+   
 
 }
